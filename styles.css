@@ -99,3 +99,21 @@ body {
     background: #125688;
     color: white;
   }
+
+  .header {
+    font-family: Arvo;
+    text-align: center;
+}
+  .mylist {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+  }
+  
+  .jumbotron {
+    text-align: center;
+    background-color: #E9DCC9;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
