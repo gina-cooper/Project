@@ -80,6 +80,12 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome
       <li><a href="https://twitter.com/"><i class="fa  fa-twitter"></i></a></li>
       <li><a href="https://instagram.com/"><i class="fa  fa-instagram"></i></a></li> 
        </ul>
+       <p>Current Date: <span id="currdate"></span></p>
+
+        <script>
+        var dt = new Date();
+        document.getElementById("currdate").innerHTML = dt.toLocaleDateString();
+        </script>
     </div>
 </body>
 </html>

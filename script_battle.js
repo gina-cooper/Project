@@ -18,13 +18,14 @@ function selectionChanged() {
 	// assign random number for the attack power for each fighter
 	min = 1;
 	max = 10;
-    try{
+	try {
 	attackPowerHero = Math.floor( Math.random() * (max - min + 1) + min );
 	attackPowerVillian = Math.floor( Math.random() * (max - min + 1) + min );
-    }
-    catch {
-        alert("Calculations incorrect");
-    }
+	}
+	catch 
+	{
+		alert("Error - incorrect calculations");
+	}
 	
 	alert("Hero power: " + attackPowerHero + ", Villain power: " + attackPowerVillian);
 	
@@ -40,4 +41,3 @@ function selectionChanged() {
 
 	document.querySelector("#winner").innerHTML = `Winner: ${winner}!`;
 }
-
