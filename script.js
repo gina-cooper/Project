@@ -88,16 +88,17 @@ function checkWord() {
 
     
 }
-function showAnswer()
-{
-    //Show answer and refresh with new word
-    alert("The answer is "+randWord.word+". Try another word.");
-    newWord();
-}
 function newWord()
 {
     //Refresh with new word
     userWord.value="";
     start();
 }
+function showAnswer()
+{
+    //Show answer and refresh with new word
+    alert("The answer is "+randWord.word+". Try another word.");
+    newWord();
+}
+
 
